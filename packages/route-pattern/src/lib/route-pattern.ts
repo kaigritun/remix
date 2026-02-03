@@ -45,6 +45,9 @@ export type RoutePatternMatch<source extends string = string> = {
   }
 }
 
+/**
+ * A class for matching and generating URLs based on a defined pattern.
+ */
 export class RoutePattern<source extends string = string> {
   readonly ast: AST
   readonly ignoreCase: boolean
